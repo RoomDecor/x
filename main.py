@@ -43,8 +43,7 @@ def generate_post_with_gemini(trends, link):
     prompt = (
         f"You are a social media expert creating a post for X.com. "
         f"Write a short, engaging post in English about these topics: '{', '.join(trends)}'. "
-        f"The post MUST include a strong Call to Action (like 'Read more here:', 'Find out the full story:', or 'Check the details below:') that encourages users to click the link. "
-        f"End the post with the link itself. The link is: {link}. "
+        f"The post MUST include a strong Call to Action {link} "       
         f"Do NOT add any hashtags in your response. Just provide the main text with the CTA and the link."
     )
     
