@@ -4,6 +4,11 @@
 
 .github/workflows/autopost.yml
 
+## Link API
+
+1. Gemini API : https://aistudio.google.com/apikey
+2. x.com API : https://developer.x.com/en/portal/dashboard
+
 ## Konfigurasi GitHub Secrets
 1. Di repositori GitHub Anda, buka Settings > Secrets and variables > Actions.
 2. Klik New repository secret untuk setiap kunci API.
